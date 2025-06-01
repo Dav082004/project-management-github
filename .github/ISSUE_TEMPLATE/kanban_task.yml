@@ -1,12 +1,12 @@
 name: Kanban Task
-description: Create a task card for the Kanban board
+description: Create a task for the Kanban board
 title: "[TASK] "
 labels: [task, kanban]
 body:
   - type: markdown
     attributes:
       value: |
-        Please fill out the following details to create a new Kanban task.
+        Please provide details for this Kanban board task.
   - type: input
     id: summary
     attributes:
@@ -19,15 +19,15 @@ body:
     id: details
     attributes:
       label: Task Details
-      description: Provide more details, context, or requirements for this task.
-      placeholder: "Describe what needs to be done, acceptance criteria, dependencies, etc."
+      description: Provide more context, requirements, or acceptance criteria.
+      placeholder: "Describe what needs to be done, dependencies, etc."
     validations:
       required: false
   - type: dropdown
     id: priority
     attributes:
       label: Priority
-      description: Select the priority level for this task.
+      description: Select the priority level.
       options:
         - Low
         - Medium
@@ -38,7 +38,7 @@ body:
     id: assignees
     attributes:
       label: Assignees
-      description: Who is responsible for this task? (GitHub usernames, comma-separated)
+      description: Who will work on this? (GitHub usernames)
       placeholder: "username1, username2"
     validations:
       required: false
@@ -46,7 +46,7 @@ body:
     id: due_date
     attributes:
       label: Due Date
-      description: When should this task be completed? (optional, format: YYYY-MM-DD)
+      description: When should this task be finished? (YYYY-MM-DD)
       placeholder: "2025-06-15"
     validations:
       required: false
