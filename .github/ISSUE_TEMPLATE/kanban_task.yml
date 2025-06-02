@@ -12,7 +12,7 @@ body:
   - type: input
     id: summary
     attributes:
-      label: Task Summary
+      label: 📝 Task Summary
       description: Briefly describe the task.
       placeholder: "Implement user login functionality"
     validations:
@@ -21,59 +21,12 @@ body:
   - type: textarea
     id: details
     attributes:
-      label: Task Details
-      description: Provide more context, requirements, or acceptance criteria.
-      placeholder: "Describe what needs to be done, dependencies, technical requirements, etc."
-    validations:
-      required: false
-
-  - type: dropdown
-    id: priority
-    attributes:
-      label: Priority Level
-      description: Select the priority level for this task.
-      options:
-        - P0 (Critical)
-        - P1 (High)
-        - P2 (Medium)
-        - P3 (Low)
-    validations:
-      required: true
-
-  - type: dropdown
-    id: status
-    attributes:
-      label: Initial Status
-      description: Select the initial status for this task.
-      options:
-        - Backlog
-        - In Progress
-        - In Review
-        - Done
-      default: 0
-    validations:
-      required: true
-
-  - type: dropdown
-    id: task_type
-    attributes:
-      label: Task Type
-      description: What type of task is this?
-      options:
-        - Feature
-        - Bug Fix
-        - Enhancement
-        - Documentation
-        - Refactoring
-        - Testing
-    validations:
-      required: true
-
-  - type: input
-    id: estimated_hours
-    attributes:
-      label: Estimated Hours
-      description: How many hours do you estimate this task will take?
-      placeholder: "8"
+      label: 📌 Task Details
+      description: Use the checklist format to list subtasks or steps.
+      placeholder: |
+        - [ ] Define database schema
+        - [ ] Set up backend endpoints
+        - [ ] Create frontend form
+        - [ ] Test login flow
     validations:
       required: false
