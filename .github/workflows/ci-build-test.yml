@@ -20,6 +20,11 @@ jobs:
           cd example
           npm install
 
+      - name: 🛠️ Fix permissions for react-scripts
+        run: |
+          cd example
+          chmod +x node_modules/.bin/react-scripts
+
       - name: 🛠️ Build project
         run: |
           cd example
