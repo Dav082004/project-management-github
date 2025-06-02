@@ -29,7 +29,7 @@ By the end of this workshop, you will be able to:
 
 - ✅ Example [GitHub Project Board](https://github.com/users/Dav082004/projects/8/views/1)  
 - 🐛 Pre-created Issues with Labels and Milestones  
-- 📄 [Slide Deck]()  
+- 📄 [Slide Deck](https://utpedupe-my.sharepoint.com/:p:/g/personal/u22200025_utp_edu_pe/Eb6wVFuvJ1REhIksq4sVGFEB7pfw5sWGgVKWSecQxKhrWg?e=0nCqPf)  
 - 📚 Reference: [GitHub Projects Docs](https://docs.github.com/en/issues/planning-and-tracking-with-projects)
 
 ---
