@@ -16,10 +16,15 @@ jobs:
           node-version: "18"
 
       - name: 📦 Install dependencies
-        run: npm install
+        run: |
+          cd example
+          npm install
 
       - name: 🛠️ Build project
-        run: npm run build
+        run: |
+          cd example
+          npm install
 
       - name: ✅ Run tests
-        run: npm test -- --watchAll=false
+        run: cd example
+          npm test -- --watchAll=false
