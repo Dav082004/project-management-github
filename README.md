@@ -1,66 +1,68 @@
-# 🧑‍🏫 Project Management with GitHub: Organizing and Tracking Software Development
+# 🧑‍🏫 Project Management with GitHub Projects
 
-## 📌 Overview
+Welcome to the example repository for the workshop: **"Project Management with GitHub Projects: Organizing Software Development Tasks"**.
 
-This repository is designed as a companion to the **Module 3: Workshop on Project Management with GitHub**. It includes materials, live demo examples, and resources to help students and new project managers learn how to use GitHub for organizing and tracking software development projects.
-
-## 🌟 Target Audience
-
-- University students
-- Developers
-- Aspiring or new project managers
-
-## 🧠 Learning Objectives
-
-1. Use **GitHub Projects** to organize tasks and track progress.
-2. Integrate **GitHub Issues** and **Pull Requests** into a collaborative workflow.
-3. Automate repetitive tasks with **GitHub Actions**.
-
-## 💡 Why this matters (Pain, Dream, Fix)
-
-- **Pain:** Development tasks often become disorganized with poor communication.
-- **Dream:** A project where each task is tracked and every contributor understands their responsibilities.
-- **Fix:** Use GitHub as a project management tool with Issues, Projects, and Automations.
-
-## 💪 Materials
-
-- ✅ [Presentation Slides](#) *(To be added)*
-- ✅ [Example GitHub Project Board](https://github.com/your-username/your-repo/projects/1)
-- ✅ Guides on GitHub Issues, Pull Requests, Milestones (in `docs/` folder)
-- ✅ Sample GitHub Actions workflow for automation
-
-## 🧪 Activities
-
-| Activity                    | Duration | Description |
-|-----------------------------|----------|-------------|
-| Introduction                | 15 min   | Overview of GitHub PM tools |
-| GitHub Projects & Issues    | 30 min   | Live demo of project board & task creation |
-| Collaboration & Workflow    | 30 min   | Using Issues + PRs + Milestones |
-| Automation & Integration    | 30 min   | Setting up GitHub Actions |
-| Q&A and Best Practices      | 15 min   | Open questions and strategies |
-
-## 📝 Hands-On Assessment
-
-- ✅ Create a GitHub Project board with tasks and labels
-- ✅ Create and link an Issue to a Pull Request
-- ✅ Set up a GitHub Action that moves issues when a PR is closed
-
-## 🗣 Feedback
-
-- Instructor & peer reviews of your boards
-- Final feedback form to evaluate the workshop
+This repo contains sample materials used during the session, including a GitHub Project board, pre-created Issues with labels and milestones, and useful resources to help you practice task management inside GitHub.
 
 ---
 
-## 📂 Repository Structure
+## 🎯 Workshop Overview
 
-```bash
-├── docs/                 # Guides for GitHub PM tools
-├── example-project/      # Sample project to simulate a real workflow
-├── .github/workflows/    # Example GitHub Actions
-└── README.md             # This document
-```
+**Duration:** 2 hours  
+**Audience:** Students, junior developers, beginner project managers with basic GitHub knowledge.
+
+This workshop teaches how to plan, track, and manage software tasks using GitHub Projects and Issues—directly inside your repositories.
 
 ---
 
-Feel free to fork this repo and practice the project management workflow with your own team!
+## 📌 Learning Objectives
+
+By the end of this workshop, you will be able to:
+
+- Create and customize a GitHub Project board using the **Kanban** view.
+- Create Issues, apply Labels, assign Milestones, and link them to the board.
+- Prioritize and move Issues across columns to reflect real-time progress.
+
+---
+
+## 🧰 What's in this Repo?
+
+- ✅ Example [GitHub Project Board](https://github.com/users/Dav082004/projects/8/views/1)  
+- 🐛 Pre-created Issues with Labels and Milestones  
+- 📄 [Slide Deck]()  
+- 📚 Reference: [GitHub Projects Docs](https://docs.github.com/en/issues/planning-and-tracking-with-projects)
+
+---
+
+## 🧪 Activities You'll Do
+
+1. Create your own Project board with Kanban columns.
+2. Write and organize Issues using Labels and Milestones.
+3. Prioritize tasks and simulate team progress.
+4. Review other participants’ boards and share feedback.
+
+---
+
+## ✅ Success Criteria
+
+- Clear, functional board with at least 3 columns (To Do, In Progress, Done).
+- Issues created and labeled correctly, assigned to milestones.
+- Proper prioritization and progress updates visible on the board.
+
+---
+
+## 💬 Feedback
+
+After the workshop, please fill out the [Feedback Form]() to help us improve.
+
+You’ll also receive feedback from peers and instructors during the session through live interaction and GitHub comments.
+
+---
+
+## 📎 License
+
+This repo is for **educational purposes only**. Feel free to fork and adapt it to run your own version of the workshop!
+
+---
+
+Happy project managing 🚀
